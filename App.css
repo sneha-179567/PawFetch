@@ -1,0 +1,389 @@
+/*.apple{
+   border-radius: 10px solid;
+   background-color: aqua;
+   padding: 30px;
+   margin: 40px;
+   color: green;
+}
+.item{
+  background-color:#0000ff;
+   padding: 30px;
+   margin: 40px;
+}
+.click-button:hover{
+    background-color: #45a049;
+}
+.starts{
+         display: block;
+         filter: drop-shadow(0 0 10px #fffdef);
+}*/
+/*.fun{
+   text-align: center;
+   background-color: aquamarine;
+}
+.sun{
+   text-overflow: red;
+}*/
+/*.paw-header {
+  background-color: #ffe6e6;
+  padding: 20px;
+  border-radius: 12px 12px 0 0;
+  text-align: center;
+  color: #cc3333;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-block {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #fff0f5;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+.about-block p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+}
+  */
+    header {
+      display: flex;
+      align-items: center;
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+
+    header img {
+      width: 100px;
+      height: auto;
+    }
+
+    header h1 {
+      margin-left: 20px;
+      font-family: Arial, sans-serif;
+    }
+
+.Header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: antiquewhite;
+  padding: 20px;
+  color: #333;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+}
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.search-box {
+  position: relative;
+  width: 400px; /* increased width */
+  margin: 0 auto;
+}
+
+.search-box input {
+  padding: 14px 14px 14px 40px; 
+  width: 100%;
+  font-size: 18px; 
+  border-radius: 10px;
+  border: 1px solid #483b3b;
+}
+
+.item {
+  margin-bottom: 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.menu-button {
+  margin-top :50px;
+  margin-left: -235px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+    .menu-items {
+    background-color: #1e1e2f;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    display: none;
+    flex-direction: column;
+  }
+
+  .menu-items a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 0;
+  }
+
+  .menu-button:hover + .menu-items {
+    display: flex;
+  }
+/* Sidebar container */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 100vh;
+  background-color: #1e1e2f;
+  color: white;
+  padding-top: 60px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  transition: all 0.3s ease;
+}
+
+/* Sidebar navigation items */
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  padding: 15px 20px;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+}
+
+.sidebar ul li a:hover {
+  background-color: #333;
+  border-radius: 4px;
+}
+/* Close button inside sidebar */
+.close-button {
+  background-color: #888;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+.Dogs {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.dog-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.dog-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 12px;
+  width: 200px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.dog-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.call-btn, .details-btn, .send-btn {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.call-btn {
+  background-color: green;
+  color: white;
+}
+
+.details-btn {
+  background-color: #007BFF;
+  color: white;
+}
+
+.send-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.details-modal {
+  margin-top: 20px;
+  border: 2px solid #444;
+  padding: 15px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+.Cats {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.cat-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cat-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 12px;
+  width: 200px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.cat-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.Rabbits {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.rabbit-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.rabbit-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 12px;
+  width: 200px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.rabbit-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.about-section {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fffdf5;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 32px;
+  color: #ff6f61;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}
+/* Signin.css */
+/* Add this to your CSS file */
+/* Container for the entire form */
+.signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f9f9f9, #e6f0ff);
+}
+
+/* Form styling */
+.signin-form {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  gap: 18px;
+}
+
+.signin-form h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 24px;
+}
+
+/* Input field styling */
+.signin-form input {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 80px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.signin-form input:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+/* Submit button */
+.signin-form button {
+  background-color: #4a90e2;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 80px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signin-form button:hover {
+  background-color: #357acb;
+}
+
+.signin-form button:disabled {
+  background-color: #a1c4f0;
+  cursor: not-allowed;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+}
